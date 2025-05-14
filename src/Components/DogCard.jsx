@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, CardMedia, CardContent, Typography } from "@mui/material";
+import Logout from "./Logout";
 
 const DogCard = ({ image }) => {
   return (
