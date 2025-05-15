@@ -22,7 +22,9 @@ export default function Navbar() {
 
         <Box sx={{ display: "flex", gap: 2 }}>
           {/* Add more nav links here as needed */}
-          {/* Example: <Button component={Link} to="/about" color="inherit">About</Button> */}
+            <Button color="inherit" component={Link} to="/breeds">
+                All Breeds
+            </Button>
           <LogoutButton />
         </Box>
       </Toolbar>
