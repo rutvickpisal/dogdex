@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { getRandomDog } from "../API/dogApi";
 import DogCard from "../Components/DogCard";
-import { Button, Container, Typography } from "@mui/material";
+import { Box, Button, Container, Typography } from "@mui/material";
+import LogoutButton from "../Components/Logout";
 
 const Home = () => {
   const [dogImage, setDogImage] = useState("");
@@ -17,6 +18,9 @@ const Home = () => {
 
   return (
     <Container sx={{ textAlign: "center", mt: 4 }}>
+      {/* <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
+        <LogoutButton />
+      </Box> */}
       <Typography variant="h4" gutterBottom>
         🐾 Dogdex - Discover a New Dog Every Time!
       </Typography>
