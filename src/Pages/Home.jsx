@@ -18,9 +18,9 @@ const Home = () => {
 
   return (
     <Container sx={{ textAlign: "center", mt: 4 }}>
-      <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
+      {/* <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
         <LogoutButton />
-      </Box>
+      </Box> */}
       <Typography variant="h4" gutterBottom>
         🐾 Dogdex - Discover a New Dog Every Time!
       </Typography>
